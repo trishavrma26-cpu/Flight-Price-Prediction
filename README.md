@@ -1,58 +1,125 @@
-# Flight Price Prediction using Machine Learning
+# ✈️ Flight Price Prediction using Machine Learning
 
-## Project Overview
-This project predicts airline ticket prices using Machine Learning techniques on a dataset containing over 300,000 flight records.
+A Machine Learning project that predicts flight ticket prices based on airline, source, destination, travel class, duration, number of stops, departure/arrival time, and days left before departure.
 
-## Dataset Features
+The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and prediction using a Random Forest Regressor.
+
+---
+
+## 📌 Project Overview
+
+The objective of this project is to build an accurate machine learning model capable of predicting flight prices using historical flight data.
+
+The workflow includes:
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Feature Encoding
+- Model Training
+- Model Evaluation
+- Model Saving using Pickle
+
+---
+
+## 📊 Dataset Information
+
+Dataset: **Clean_Dataset.csv**
+
+Features used:
+
 - Airline
 - Source City
 - Destination City
 - Departure Time
 - Arrival Time
 - Number of Stops
-- Ticket Class
+- Travel Class
 - Duration
 - Days Left
-- Price
+- Price (Target Variable)
 
-## Exploratory Data Analysis (EDA)
+Dataset Size:
+
+- **300,153 rows**
+- **11 input features**
+- **1 target column (Price)**
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+Performed various EDA techniques including:
+
 - Distribution of Flight Prices
-- Price Distribution by Ticket Class
-- Feature Importance Analysis
+- Airline-wise Price Analysis
+- Travel Class Comparison
+- Source & Destination Analysis
+- Stops vs Price
+- Duration vs Price
+- Correlation Heatmap
+- Outlier Detection using Boxplots
 
-## Models Used
-1. Linear Regression
-2. Random Forest Regressor
+---
 
-## Model Performance
+## ⚙️ Data Preprocessing
 
-### Linear Regression
-- R² Score: 0.9099
-- MAE: ₹4500.71
-- RMSE: ₹6814.94
+The following preprocessing steps were performed:
 
-### Random Forest Regressor
-- R² Score: 0.9848
-- MAE: ₹1087.07
-- RMSE: ₹2801.09
-- MAPE: 7.08%
+- Removed unnecessary columns
+- Handled categorical variables
+- Ordinal Encoding for:
+  - Stops
+  - Class
+- One-Hot Encoding for:
+  - Airline
+  - Source City
+  - Destination City
+  - Departure Time
+  - Arrival Time
+- Train-Test Split (80-20)
 
-## Important Features
-1. Ticket Class
-2. Duration
-3. Days Left
+---
 
-## Technologies Used
+## 🤖 Machine Learning Model
+
+Model Used:
+
+- Random Forest Regressor
+
+Libraries:
+
+- Scikit-Learn
+- Pandas
+- NumPy
+
+---
+
+## 📈 Model Performance
+
+| Metric | Value |
+|---------|--------|
+| R² Score | **0.98+** |
+| MAE | **~1100** |
+| RMSE | **~2800** |
+
+The Random Forest model achieved excellent prediction accuracy with a high R² score and low prediction error.
+
+---
+
+## 🛠️ Technologies Used
+
 - Python
+- Google Colab
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
-- Google Colab
+- Scikit-Learn
+- Pickle
+- Git
+- GitHub
 
-## Conclusion
-Random Forest Regressor achieved excellent performance with an R² score of 98.48%.
+---
 
-## Note
-The trained model file is stored using Git LFS due to its size.
+## 📂 Project Structure
