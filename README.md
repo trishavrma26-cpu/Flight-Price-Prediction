@@ -142,7 +142,7 @@ Flight-Price-Prediction/
 4. Run all cells.
 
 ---
-## 📷 Screenshots
+## 📷 Plots
 <img width="897" height="586" alt="image" src="https://github.com/user-attachments/assets/94ad79c2-2d42-4d9c-aff5-cf19ef80756e" />
 
 ****<img width="1272" height="471" alt="image" src="https://github.com/user-attachments/assets/3ae66f8a-0782-4af9-8979-3fa7ae559d00" />
@@ -172,7 +172,5 @@ Example outputs include:
 
 ---
 
-## 👩‍💻 Author
 
-**Trisha Verma**
 
