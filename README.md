@@ -123,3 +123,56 @@ The Random Forest model achieved excellent prediction accuracy with a high R² s
 ---
 
 ## 📂 Project Structure
+Flight-Price-Prediction/
+│
+├── Clean_Dataset.csv
+├── Flight_Price_Prediction.ipynb
+├── flight_price_model.pkl
+├── model_columns.pkl
+├── README.md
+└── requirements.txt
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+2. Install dependencies
+3. Open the notebook
+4. Run all cells.
+
+---
+## 📷 Screenshots
+<img width="897" height="586" alt="image" src="https://github.com/user-attachments/assets/94ad79c2-2d42-4d9c-aff5-cf19ef80756e" />
+
+****<img width="1272" height="471" alt="image" src="https://github.com/user-attachments/assets/3ae66f8a-0782-4af9-8979-3fa7ae559d00" />
+
+<img width="923" height="678" alt="image" src="https://github.com/user-attachments/assets/ddb68f9e-2f83-49da-a71a-4fe7950622d5" />
+
+## 📷 Results
+Example outputs include:
+
+- Distribution plots
+- Correlation heatmap
+- Feature importance
+- Actual vs Predicted graph
+
+(Add screenshots below)
+
+---
+
+## 🔮 Future Improvements
+
+- Hyperparameter tuning
+- XGBoost implementation
+- LightGBM implementation
+- Flask/Streamlit Web Application
+- Flight Price Prediction API
+- Real-time flight data integration
+
+---
+
+## 👩‍💻 Author
+
+**Trisha Verma**
+
