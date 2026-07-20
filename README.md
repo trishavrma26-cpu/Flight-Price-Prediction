@@ -146,6 +146,7 @@ The Random Forest model achieved excellent prediction accuracy with a high R² s
 
 ## 📂 Project Structure
 
+```text
 Flight-Price-Prediction/
 │
 ├── Clean_Dataset.csv
@@ -155,7 +156,8 @@ Flight-Price-Prediction/
 ├── requirements.txt
 ├── README.md
 └── images/
----
+```
+
 
 ## 🚀 How to Run
 
