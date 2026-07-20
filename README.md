@@ -1,5 +1,13 @@
 # ✈️ Flight Price Prediction using Machine Learning
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 A Machine Learning project that predicts flight ticket prices based on airline, source, destination, travel class, duration, number of stops, departure/arrival time, and days left before departure.
 
 The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and prediction using a Random Forest Regressor.
@@ -21,6 +29,14 @@ The workflow includes:
 - Model Saving using Pickle
 
 ---
+## 🎯 Objectives
+
+- Analyze flight pricing patterns.
+- Perform comprehensive Exploratory Data Analysis (EDA).
+- Build a Machine Learning model for price prediction.
+- Compare model performance using evaluation metrics.
+- Save the trained model for future deployment.
+
 
 ## 📊 Dataset Information
 
@@ -86,9 +102,15 @@ The following preprocessing steps were performed:
 Model Used:
 
 - Random Forest Regressor
+Why Random Forest?
 
+- High Prediction Accuracy
+- Handles Non-linear Relationships
+- Robust to Outliers
+- Reduces Overfitting using Ensemble Learning
+
+  
 Libraries:
-
 - Scikit-Learn
 - Pandas
 - NumPy
@@ -123,15 +145,16 @@ The Random Forest model achieved excellent prediction accuracy with a high R² s
 ---
 
 ## 📂 Project Structure
+
 Flight-Price-Prediction/
 │
 ├── Clean_Dataset.csv
 ├── Flight_Price_Prediction.ipynb
 ├── flight_price_model.pkl
 ├── model_columns.pkl
+├── requirements.txt
 ├── README.md
-└── requirements.txt
-
+└── images/
 ---
 
 ## 🚀 How to Run
@@ -142,12 +165,6 @@ Flight-Price-Prediction/
 4. Run all cells.
 
 ---
-## 📷 Plots
-<img width="897" height="586" alt="image" src="https://github.com/user-attachments/assets/94ad79c2-2d42-4d9c-aff5-cf19ef80756e" />
-
-****<img width="1272" height="471" alt="image" src="https://github.com/user-attachments/assets/3ae66f8a-0782-4af9-8979-3fa7ae559d00" />
-
-<img width="923" height="678" alt="image" src="https://github.com/user-attachments/assets/ddb68f9e-2f83-49da-a71a-4fe7950622d5" />
 
 ## 📷 Results
 Example outputs include:
@@ -157,20 +174,24 @@ Example outputs include:
 - Feature importance
 - Actual vs Predicted graph
 
-(Add screenshots below)
-
 ---
 
-## 🔮 Future Improvements
+## 📷 Plots
+<img width="897" height="586" alt="image" src="https://github.com/user-attachments/assets/94ad79c2-2d42-4d9c-aff5-cf19ef80756e" />
 
-- Hyperparameter tuning
-- XGBoost implementation
-- LightGBM implementation
-- Flask/Streamlit Web Application
-- Flight Price Prediction API
-- Real-time flight data integration
+****<img width="1272" height="471" alt="image" src="https://github.com/user-attachments/assets/3ae66f8a-0782-4af9-8979-3fa7ae559d00" />
+
+<img width="923" height="678" alt="image" src="https://github.com/user-attachments/assets/ddb68f9e-2f83-49da-a71a-4fe7950622d5" />
 
 ---
+## 📚 Key Learning Outcomes
 
+- Data Cleaning
+- Feature Engineering
+- Exploratory Data Analysis
+- Machine Learning Pipeline
+- Model Evaluation
+- Git & GitHub
+- Model Serialization using Pickle
 
 
